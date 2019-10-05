@@ -5,21 +5,19 @@ class Header extends Component {
     
 
         state = {
-            
             keywords:''
         
     }
     
 
     inputChangeHandler = (event) => {
-       this.setState({
+        this.setState({
            keywords: event.target.value
-       })
+        })
     }
 
 
-    render() {
-        
+    render() {        
         return ( 
             <header>
                 <div 
