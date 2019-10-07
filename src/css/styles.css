@@ -18,6 +18,6 @@ header input {
     margin: 20px 0;
 }
 
-.news_item {
+:local(.news_item ){
     background: red;
 }
